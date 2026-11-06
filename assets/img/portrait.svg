@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 800 1000">
+  <!-- Placeholder portrait: replace with assets/img/portrait.jpg (4:5, at least 800 x 1000) and update the <img> src in index.html -->
+  <rect width="800" height="1000" fill="#ecf0f2"/>
+  <text x="400" y="520" text-anchor="middle" dominant-baseline="middle" fill="#1f3038" font-family="'Albert Sans', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="260" letter-spacing="-10">YN</text>
+</svg>
