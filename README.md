@@ -50,3 +50,10 @@ Compress photographs before you add them (under about 200 KB each). The pictures
 - **Social links:** the footer has an empty `.socials` block with a commented LinkedIn example. Add only accounts you actually use.
 - **Colours:** change the `--p-*` values in the first `<style>` block in `index.html`. Keep body text at a 7:1 contrast ratio or better against the background, and the button colour at 4.5:1 or better against white.
 - **Font:** the page uses Albert Sans from Google Fonts. To change it, replace the Google Fonts link and the two `--font-*` values.
+
+## Keep it working
+
+- Keep each line of the headline under about 18 characters (name on line one, role on line two), so it stays on two lines on every screen.
+- Every section is sized to fill exactly one screen (two on a phone for Experience and Work). If you add much more text to a section, check it on a phone and a tablet. Move longer detail into your CV.
+- Only show numbers, clients and quotes you can back up. If you add a recommendation, use a real quote, with the person's permission.
+- Every link must go somewhere real: a section on the page, your email address or a file in the repo.
