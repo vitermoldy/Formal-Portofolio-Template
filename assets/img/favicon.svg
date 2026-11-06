@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- The initial mark from the nav: change "Y" to your own initial -->
+  <rect width="64" height="64" rx="12" fill="#0d7480"/>
+  <text x="32" y="34" text-anchor="middle" dominant-baseline="middle" fill="#ffffff" font-family="'Albert Sans', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40">Y</text>
+</svg>
