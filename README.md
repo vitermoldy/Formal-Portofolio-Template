@@ -44,3 +44,9 @@ The paragraphs under each heading are written as instructions ("Write two senten
 | `assets/img/favicon.svg` | Change the letter to your own initial. |
 
 Compress photographs before you add them (under about 200 KB each). The pictures crop to fill their frames, so keep the subject near the centre.
+
+### Optional
+
+- **Social links:** the footer has an empty `.socials` block with a commented LinkedIn example. Add only accounts you actually use.
+- **Colours:** change the `--p-*` values in the first `<style>` block in `index.html`. Keep body text at a 7:1 contrast ratio or better against the background, and the button colour at 4.5:1 or better against white.
+- **Font:** the page uses Albert Sans from Google Fonts. To change it, replace the Google Fonts link and the two `--font-*` values.
