@@ -64,3 +64,15 @@ Compress photographs before you add them (under about 200 KB each). The pictures
 2. In the repository, go to **Settings > Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
 4. Your portfolio is published at `https://<your-username>.github.io/<repository-name>/`.
+
+## Files
+
+```
+index.html                 the page
+assets/system.css, .js     layout system: grid, type, buttons, nav, phone menu
+assets/layout/             hero styles and script
+assets/motion/             hover and press feedback
+assets/ui/                 card styles and a helper the layout script needs
+assets/img/                placeholder portrait, project images, favicon
+assets/cv.pdf              placeholder CV
+```
