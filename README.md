@@ -33,3 +33,14 @@ Search `index.html` for each placeholder and replace it:
 | `you@yourname.example` | All four "Email me" links |
 
 The paragraphs under each heading are written as instructions ("Write two sentences here..."). Replace them with your own words.
+
+### Files to replace
+
+| File | What to put there |
+|---|---|
+| `assets/cv.pdf` | Your CV as a PDF. Keep the file name so every "Download CV" link keeps working. |
+| `assets/img/portrait.svg` | Your portrait, 4:5, for example `portrait.jpg` at 800 x 1000. Update the `src` in the About section. |
+| `assets/img/work-1.svg` to `work-3.svg` | One image per project, 4:3, for example 1200 x 900: a photograph of the work, a report cover, a chart of the result. Update each `src` and `alt`. |
+| `assets/img/favicon.svg` | Change the letter to your own initial. |
+
+Compress photographs before you add them (under about 200 KB each). The pictures crop to fill their frames, so keep the subject near the centre.
