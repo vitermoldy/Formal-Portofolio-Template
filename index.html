@@ -30,6 +30,24 @@
   --display-tracking-xl: -0.035em;
 }
 </style>
+<!-- page CSS: the skip link (system.md: hidden until focused), the footer column headings (h3 here,
+     so no heading level is skipped) and the column count of the Work tiles on a tablet and a phone,
+     so each section holds whole screens -->
+<style>
+  .skip { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .skip:focus-visible { position: fixed; top: var(--s-3); left: var(--s-3); z-index: 20; width: auto; height: auto; clip-path: none;
+                        padding: var(--s-3) var(--s-4); background: var(--bg); color: var(--ink); border-radius: var(--r-sm); font-weight: 500; }
+  .footer__col > h3 { font: 500 var(--t-small)/1.4 var(--font-text); letter-spacing: 0; color: var(--muted); margin-bottom: var(--s-4); }
+  /* an upright tablet: work history and education stay side by side, and the three projects stay
+     in one row with taller pictures, so each section holds one screen */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    #experience > .wrap > .span-7 { grid-column: 1 / span 7; }
+    #experience > .wrap > .span-5 { grid-column: 8 / span 5; }
+    #work .grid > .tile { grid-column: auto / span 4; --tile-ratio: 4 / 5; }
+  }
+  /* a phone: the three projects stack one per row, so the section fills its two screens */
+  @media (max-width: 639px) { #work .grid > .tile { grid-column: 1 / -1; } }
+</style>
 </head>
 <body>
 <!-- type: service (a person who is hired; site-kind other: flat colour, type, the hover layer, nothing moves by itself)
@@ -45,6 +63,7 @@
 
 <header class="nav nav--split">
   <div class="wrap nav__bar">
+    <a class="skip" href="#main">Skip to content</a>
     <a class="nav__logo" href="#top"><span class="mark mark--initial" aria-hidden="true">Y</span>Your Name</a>
     <nav class="nav__links" aria-label="Main">
       <div class="nav__item"><a class="nav__link" href="#about">About</a></div>
