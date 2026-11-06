@@ -76,3 +76,7 @@ assets/ui/                 card styles and a helper the layout script needs
 assets/img/                placeholder portrait, project images, favicon
 assets/cv.pdf              placeholder CV
 ```
+
+## Credits
+
+The layout system in `assets/` (system, layout, motion and ui files) comes from [taste-skill](https://github.com/Leonxlnx/taste-skill) by Leonxlnx, under the MIT License (see `assets/LICENSE-taste-skill.txt`). The design was checked against the [antislop](https://github.com/miqdadbadjuber/anti-slop) rules.
