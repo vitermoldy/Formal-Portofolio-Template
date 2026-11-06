@@ -57,3 +57,10 @@ Compress photographs before you add them (under about 200 KB each). The pictures
 - Every section is sized to fill exactly one screen (two on a phone for Experience and Work). If you add much more text to a section, check it on a phone and a tablet. Move longer detail into your CV.
 - Only show numbers, clients and quotes you can back up. If you add a recommendation, use a real quote, with the person's permission.
 - Every link must go somewhere real: a section on the page, your email address or a file in the repo.
+
+## Publish on GitHub Pages
+
+1. Push the repository to GitHub.
+2. In the repository, go to **Settings > Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
+4. Your portfolio is published at `https://<your-username>.github.io/<repository-name>/`.
