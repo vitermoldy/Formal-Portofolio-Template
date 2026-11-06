@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 1200 900">
+  <!-- Placeholder: a photograph of the work. Replace with assets/img/work-1.jpg (4:3, at least 1200 x 900) and update the src in index.html -->
+  <rect width="1200" height="900" fill="#ecf0f2"/>
+  <rect x="340" y="215" width="520" height="470" rx="28" fill="#f7f9fa"/>
+  <g fill="none" stroke="#5d6b72" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" transform="translate(600 450) scale(1.5) translate(-600 -440)">
+    <rect x="480" y="345" width="240" height="190" rx="14"/>
+    <circle cx="545" cy="400" r="20"/>
+    <path d="M488 515l72-70 52 46 38-32 62 56"/>
+  </g>
+</svg>
